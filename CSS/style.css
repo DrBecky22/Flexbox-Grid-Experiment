@@ -1,16 +1,100 @@
-.container {
-    background: pink;
-    height: 50vh;
-    width: 50vw;
-    padding: 0.5em;
-    margin: 25vh auto 0;
+.hero-container {
+  background: url(https://picsum.photos/1800/600) no-repeat center;
+  height: 600px;
+  width: 100vw;
+}
+
+.hero-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+  outline: solid black 3px;
+  background-color:rgb(230, 234, 236);
+
+}
+
+.flex-container1 {
+  background:rgb(154, 177, 138);
+  height: 50vh;
+  width: 80vw;
+  padding: .5em;
+  margin: 5vh auto 0;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+  /* justify-content: center; */
+  align-items: stretch;
+  /* align-content: center; */
+}
+
+.flex-item {
+  background:rgb(128, 86, 103);
+  margin: .5em;
+  border: solid black 3px;
+  width: 25%;
+  /* flex-grow: ; */
+  /* flex-shrink: ; */
+  /* flex-basis: ; */
+  /* flex: ; */
+}
+
+.big {
+  font-size: 2em;
+}
+
+.one {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 250px;
+}
+
+.two {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 250px;
+}
+
+.three {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 250px;
+}
+
+.flex-container2 {
+    background: paleturquoise;
+    /* height: 75vh; */
+    /* width: 75vw; */
+     padding: 0.5em;
+    /* margin: 25vh auto 0; */
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    /* flex-direction: row; */
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    gap: 1.5em;
+    margin-top: 250px;
     
   }
   
-  .item {
-    background: lightblue;
-    margin: 0.5em;
+  .fitem {
+    background: rgb(206, 214, 218);
+    border: solid black 3px;
+    padding: .5em;
+
+
+    /* margin: 0.5em; */
+  }
+
+  .grid-container {
+    background: aquamarine;
+    /* width: 80vw; */
+    display: grid;
+    margin-top: 250px;
+
+
+  }
+
+  .gitem {
+    background:rgb(46, 165, 56)
   }
